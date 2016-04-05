@@ -23,3 +23,22 @@ This script removes all @today tags from tasks with @done tags
 ### Use
 
 At the end of the day i send all tasks with the tag @done to archive project and run this script to remove @today tag from this tasks
+
+## taskpaper_add_to_inbox_and_search.alfredworkflow
+
+Alfred workflow for quikly add tasks to Inbox project and search taskpaper files.
+
+### Requirements
+
+* [TaskPaper 3](https://www.taskpaper.com/) 
+* [Alfred v2](http://www.alfredapp.com/)
+
+### Installation
+
+1. Clone this repo
+2. Follow the [procedures for installing an Alfred workflow](https://www.alfredapp.com/help/workflows/)
+
+### Use
+
+It is configured by default to run the script for add task to Inbox on the keyword `tp ` and if you need find takpaper file you need  use `Enter keywords options`
+
