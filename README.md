@@ -1,6 +1,6 @@
 # taskpaperscripts
 
-A collection of scripts used in my [TaskPaper 3](https://www.taskpaper.com/) workflow.
+A collection of scripts used in my [TaskPaper 3.5](https://www.taskpaper.com/) workflow.
 
 ## remove_today_from_done.scpt
 
@@ -23,6 +23,24 @@ This script removes all @today tags from tasks with @done tags
 ### Use
 
 At the end of the day i send all tasks with the tag @done to archive project and run this script to remove @today tag from this tasks
+
+## copy_selected_items.scpt
+
+This script is copy to clipboard all selected items after filtering in taskpaper document
+
+### Requirements
+
+* [TaskPaper](https://www.taskpaper.com/) 
+* [FastScripts](https://red-sweater.com/fastscripts/) 
+
+### Installation
+
+1. Clone this repo
+2. Open Taskpaper 3.5
+3. Open FastScript app
+4. Open Taskpaper scripts folder by FastScript menu item: FastSctipts>Open TaskpPaper Scripts Folder
+5. Copy script copy_selected_items.scpt to this folder
+6. In FastScript prefrenses chose script shortcut
 
 ## taskpaper_add_to_inbox_and_search.alfredworkflow
 
